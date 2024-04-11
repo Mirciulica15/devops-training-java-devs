@@ -2,6 +2,9 @@
 
 ## Scooby Snacks
 
-- Madalina 4
-- Bogdan 3
-- Corina 1
+- Madalina 9
+- Bogdan 7
+- Corina 3
+- Andreea L 2
+- Mihai 2
+- Razvan 1
