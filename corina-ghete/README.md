@@ -5,14 +5,16 @@ a.	O imagine Docker este un șablon de bază care conține toate dependențele �
 b.	Este compusă dintr-un strat de bază (base layer) și straturi suplimentare care conțin toate pachetele și dependențele necesare pentru aplicație.
 c.	Imaginile sunt statice și nu pot fi modificate în timpul execuției.
 d.	Imaginile Docker sunt create folosind fișiere Dockerfile și pot fi distribuite și partajate prin intermediul unui registru Docker, cum ar fi Docker Hub.
+
 Container Docker:
+
 e.	Un container Docker este o instanță în execuție a unei imagini Docker.
 f.	Atunci când o imagine Docker este rulată, este instanțiată într-un container, care poate fi văzut ca o instanță a aplicației sau a serviciului.
 g.	Un container Docker are propriul său spațiu de lucru izolat, inclusiv sistemul de fișiere, rețelele și variabilele de mediu.
 h.	Containerul este un mediu dinamic în care aplicația sau serviciul este executat și poate fi pornit, oprit și șters în orice moment.
 
-
 Cele mai uzuale comenzi Docker:
+
 1.	docker run: Această comandă este folosită pentru a crea și a rula un container dintr-o imagine Docker specificată. Poate fi utilizată pentru a specifica opțiuni precum numele containerului, porturile, variabilele de mediu și multe altele.
 Exemplu: docker run -d --name my_container -p 8080:80 nginx
 2.	docker build: Această comandă este folosită pentru a construi o imagine Docker dintr-un Dockerfile și din alte fișiere asociate. Aceasta este esențială pentru crearea de imagini personalizate.
@@ -100,4 +102,3 @@ k logs <nume> - arata logul
 k apply -f fisier.yaml – aplica configuratiile din fisier
 
 helm – o colectie de comenzi prin care poti folosi yaml files create anterior, care au fost puse la dispozitie intr-un helm charts.
-
